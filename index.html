@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muthulakshmi – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">
+        <!-- Replace with your actual image -->
+        <img src="profile.jpg" alt="Muthulakshmi Profile" />
+      </div>
+      <div class="title">
+        <h1>Muthulakshmi</h1>
+        <div class="subtitle">Student • Creative Writer & Dancer</div>
+      </div>
+    </header>
+
+    <nav class="tabs" role="tablist" aria-label="Portfolio Sections">
+      <button class="tab active" data-tab="about" role="tab" aria-selected="true">About</button>
+      <button class="tab" data-tab="education" role="tab" aria-selected="false">Educational Qualification</button>
+      <button class="tab" data-tab="skills" role="tab" aria-selected="false">Skills</button>
+      <button class="tab" data-tab="activities" role="tab" aria-selected="false">Extra Curricular Activities</button>
+      <button class="tab" data-tab="biodata" role="tab" aria-selected="false">Bio Data</button>
+    </nav>
+
+    <section id="about" class="panel active" role="tabpanel">
+      <h2>About</h2>
+      <p class="greeting">Hello! 👋</p>
+      <p>
+        I’m <strong>Muthulakshmi</strong>, a passionate student with strong interests in <strong>writing</strong> and <strong>dance</strong>.  
+        I believe in learning smoothly, growing every day, and sharing creativity with the world. ✨
+      </p>
+    </section>
+
+    <section id="education" class="panel" role="tabpanel">
+      <h2>Educational Qualification</h2>
+      <ul>
+        <li>Completed classes <strong>1 to 8</strong> at <strong>Joseph Middle School, Pallapalayam</strong>.</li>
+        <li>Completed classes <strong>9 to 12</strong> at <strong>A.V.A.T Higher Secondary School, Samalapuram</strong>.</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="panel" role="tabpanel">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span class="chip">Writing</span>
+        <span class="chip">Dance</span>
+        <span class="chip">Creativity</span>
+        <span class="chip">Smooth Behaviour</span>
+      </div>
+    </section>
+
+    <section id="activities" class="panel" role="tabpanel">
+      <h2>Extra Curricular Activities</h2>
+      <ul>
+        <li>Participating in cultural dance programs</li>
+        <li>Creative writing and storytelling</li>
+      </ul>
+    </section>
+
+    <section id="biodata" class="panel" role="tabpanel">
+      <h2>Bio Data</h2>
+      <div class="grid">
+        <div class="kv"><div class="label">Name</div><div class="value">Muthulakshmi</div></div>
+        <div class="kv"><div class="label">Father's Name</div><div class="value">Arunkumar</div></div>
+        <div class="kv"><div class="label">Mother's Name</div><div class="value">Chithra</div></div>
+        <div class="kv"><div class="label">Skills</div><div class="value">Writing, Dance</div></div>
+        <div class="kv"><div class="label">Behaviour</div><div class="value">Smoothly</div></div>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Muthulakshmi • Designed with care
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
